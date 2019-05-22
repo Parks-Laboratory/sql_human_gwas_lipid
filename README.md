@@ -6,4 +6,4 @@ This python program is used for query of interest Human_GWAS lipid genes. Since 
 * The returned output is sorted by p-value.
 * This result can be 
 (1) saved as csv file.
-(2) import to sql server.
+(2) import to sql server.  need connect to load.py and do the loading.
