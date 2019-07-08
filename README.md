@@ -1,9 +1,2 @@
 # sql_human_gwas_lipid
-This python program is used for query of interest Human_GWAS lipid genes. Since the size of total tables in the SQL server are nearly 20GB or expected to be larger, this program is intended to find only necessary data with the efficient algorithm over dozen of multiple large size tables.
-* You need to enter table you want to search, gene name, desired margin, and desired p-value.
-* You can select multiple values separated by comma.
-* Then the corresponding result will show up, and this will be a txt file with all significant (defined by setup p-value) SNP associated with genes.
-* The returned output is sorted by p-value.
-* This result can be 
-(1) saved as csv file.
-(2) import to sql server.
+This python script is ran from the command line taking an input txt file, a base pair margin, and a pvalue cutoff. The margin and pvalue are optional arguments, so if not entered they will defer to default values. The script will take these arguments and locate all of the genes in the hg19 table. Once we get our information from hg19, it is cross referenced with all of the lipid gwas tables. The result is a pandas data frame, sorted by ascending pvalue, that is saved as a text file in an output folder. 
