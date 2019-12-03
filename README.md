@@ -8,12 +8,14 @@ In order to run this script naviagate to the directory containing script. From h
  - ARGUMENT LEGEND:
    * -h, --help     use this flag, by itself, to bring up the help menu for the arguments from
                    the command line
-   * -p, --pval     enter this flag, then your desired value of the pvalue cutoff (If not entered
-                   default value of .00005 will be used)  
-   * -m, --margin   enter this flag, then your desired Base Pair margin value interval (If not 
-                   entered default value 200000 will be used)
+   * -p, --pval     enter this flag, then your desired value of the pvalue cutoff   
+   * -m, --margin   enter this flag, then your desired Base Pair margin value interval 
    * -i, --input    enter this flag, then the name of your .txt file to run on the script
-                   (Should be in the form of "geneName\n") 
+                    
+   * Additional Info
+        * If [-p] not entered default value of .00005 will be used
+        * If [-m] not entered default value 200000 will be used
+        * input.txt should be in the form "geneName\n"
  
 
 
