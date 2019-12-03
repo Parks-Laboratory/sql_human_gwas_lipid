@@ -3,10 +3,13 @@ This python script is ran from the command line taking an input txt file, a base
 
 # INPUT ARGUMENTS 
 In order to run this script naviagate to the directory containing script. From here, enter the following commands:
-"py LIPID_GWAS_SCRIPT.py [-h] [-m] [-p] -i" Brackets indicate optional arguments and should not be included when running the script from the command line. 
+"py LIPID_GWAS_SCRIPT.py [-h] [-m] [-p] -i" Brackets indicate optional arguments and should not be included when running the script from the command line. Every arguments will come in a short and long version. Use one dash infront of short version and use a double dash for the long version. 
 
- - LEGEND:
- 
+ - ARGUMENT LEGEND:
+    -h, --help     use this flag, by itself, to bring up the help menu for the arguments from the command line
+    -p, --pval     enter this flag, then your desired value of the pvalue cutoff (If not entered default value of .00005 will be used)  
+    -m, --margin   enter this flag, then your desired Base Pair margin value interval (If not entered default value 200000 will be used)
+    -i, --input    enter this flag, then the name of your .txt file to run on the script (Should be in the form of "geneName\n") 
  
 
 
