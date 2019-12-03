@@ -3,7 +3,7 @@ This python script is ran from the command line taking an input txt file, a base
 
 # INPUT ARGUMENTS 
 In order to run this script naviagate to the directory containing script. From here, enter the following commands:
-"py LIPID_GWAS_SCRIPT.py [-h] [-m] [-p] -i" Brackets indicate optional arguments and should not be included when running the script from the command line. Every arguments will come in a short and long version. Use one dash infront of short version and use a double dash for the long version. Arguments do not have to be in any specific order
+"py LIPID_GWAS_SCRIPT.py [-h] [-m] [-p] -i" Brackets indicate optional arguments and should not be included when running the script from the command line. Every arguments will come in a short and long version. Use one dash infront of short version and use a double dash for the long version. Arguments do not have to be in any specific order. Use "py" and "pip3" do use the updated version of the technologies.
 
  - ARGUMENT LEGEND:
    * -h, --help     use this flag, by itself, to bring up the help menu for the arguments from
